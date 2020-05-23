@@ -152,3 +152,7 @@ p {
 #footer {
   color: #fff;
 }
+
+.buy-now-button:hover {
+  background-color: #5c2a9d;
+}
