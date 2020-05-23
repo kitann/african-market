@@ -1,0 +1,142 @@
+body {
+  background-color: #f1f3f4;
+}
+
+#title {
+  background-color: #333333;
+  color: #ffffff;
+  font-family: "Baloo 2";
+}
+
+/* Buy African Store */
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 2% 15%;
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title  */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-family: "Ubuntu";
+  font-size: 1.0rem;
+}
+
+/* Universal Tropical Heading */
+.navbar-brand {
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+
+/* Google Map Frame */
+iframe {
+  border-radius: 3%;
+}
+
+/* Section 2 Features */
+#features {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.0rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+/* Footnote on Section 2 */
+.notes {
+  color: #8f8f8f;
+  padding: 5%;
+}
+
+/* Icons from Fontawesome */
+.icon {
+  color: #162447;
+  padding-bottom: 16px;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Section 3 Testimonials */
+#testimonial {
+
+  text-align: center;
+  background-color: #035aa6;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+
+/* Section pricing */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#cta {
+  text-align: center;
+  background-color: #333333;
+  color: #fff;
+}
+
+.download-button-footer {
+  margin: 1% 5% 1% 0;
+}
+
+.h3-footer {
+  padding-top: 1%
+}
+
+.footer-address {
+  text-decoration: none;
+}
+
+.footer-address:hover {
+  text-decoration: none;
+  color: #fff;
+}
