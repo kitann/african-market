@@ -48,10 +48,11 @@ h1 {
 /* Google Map Frame */
 .local-food-2 {
   border-radius: 3%;
-  transform: rotate(10deg);
+  transform: rotate(25deg);
   position: absolute;
-  width: 500px;;
-  height: 500px;;
+  right: 10%;
+  width: 500px;
+  height: 500px;
 }
 
 /* Section 2 Features */
