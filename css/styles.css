@@ -16,7 +16,7 @@ h1 {
 }
 
 .container-fluid {
-  padding: 2% 15%;
+  padding: 2% 15% 7%;
 }
 
 /* Download Button */
@@ -46,14 +46,21 @@ h1 {
 }
 
 /* Google Map Frame */
-iframe {
+.local-food-2 {
   border-radius: 3%;
+  transform: rotate(10deg);
+  position: absolute;
+  width: 500px;;
+  height: 500px;;
 }
 
 /* Section 2 Features */
 #features {
   text-align: center;
   padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
 }
 
 h2 {
