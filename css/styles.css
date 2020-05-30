@@ -124,6 +124,7 @@ p {
   text-align: center;
   background-color: #5c2a9d;
   color: #fff;
+
 }
 
 .download-button-footer {
@@ -137,6 +138,8 @@ p {
   margin: auto;
   text-align:center;
   font-size: 20px;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .footer-address {
@@ -153,6 +156,7 @@ p {
   margin: auto;
   text-align: center;
   padding: 20px;
+  height: auto;
 }
 
 .buy-now-button:hover {
@@ -181,7 +185,13 @@ p {
 
 .icons {
   margin: 2%;
+  color: #5c2a9d;
 }
+
+.icons:hover {
+  color: #ff4c68;
+}
+
 
 /* button .download-button-footer-apple {
   margin-right: 40px;
