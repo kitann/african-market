@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Membership Registration</title>
+  <link rel="stylesheet" href="css/registration.css">
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/registration.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("input").focus(function() {
+        $(this).css("background-color", "yellow");
+      });
+    });
+    $("input").blur(function() {
+      $(this).css("background-color", "magenta");
+    });
+    $("#first").mousedown(function() {
+      alert("Enter your first name here");
+    });
+    $("#last").mousedown(function() {
+      alert("Enter your last name");
+    });
+    $("#email").mousedown(function() {
+      alert("Enter your email address");
+    });
+  </script>
+
+</head>
+
+<body style="background-color: grey; color: white;">
+  <div>
+    <table class="table">
+      <tr>
+        <td class="label">First Name</td>
+        <td><input id="first" type="text" name="first name" required></td>
+      </tr>
+      <tr>
+        <td class="label">Last Name</td>
+        <td><input id="last" type="text" name="last name" required></td>
+      </tr>
+      <tr>
+        <td class="label">Email</td>
+        <td><input id="email" type="text" name="myEmail" required></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><button class="btn btn-lg btn-primary" type="submit" name="submit" value="submit">Register</button></td>
+      </tr>
+    </table>
+  </div>
+</body>
+
+</html>
